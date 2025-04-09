@@ -22,7 +22,7 @@ public class AnimalHospitalMainV3 {
     catHospital.checkUp();
 
   /// 문제점: 매개변수 확인을 실패. 해결완료
-  // catHospital.setAnimal(dog);
+  // catHospital.setAnimal(dog); 다른 타입 입력으로 컴파일 오류 발생
 
   //  개 타입 뱐환
     Dog animal =(Dog) dogHospital.Bigger(new Dog("흑구3",70));
